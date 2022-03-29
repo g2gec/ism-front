@@ -1,0 +1,175 @@
+.cardSearchFligth {
+    padding: 12px;
+    background: #fff;
+    min-width: 90%;
+    margin-right: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+.cardSearchFligth__info {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.searchFligths__cardsContainer {
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+}
+.cardSearchFligth__ida {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.cardSearchFligth__Headers {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.cardSearchFligth__Headers span{
+    font-size: 0.8rem;
+    color: #929292;
+    line-height: 1;
+    display: block;
+}
+.cardSearchFligth__Headers h5{
+    line-height: 1;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.cardSearchFligth__containerIda {
+    width: 30%;
+}
+.cardSearchFligth__containerOrigin {
+    width: 20%;
+}
+.cardSearchFligth__containerDestiny {
+    width: 30%;
+}
+.cardSearchFligth__containerPackage {
+    width: 20%;
+}
+.cardSearchFligth__containerPrices {
+    width: 25%;
+}
+
+
+.cardSearchFligth__body {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.cardSearchFligth__body span{
+    font-size: 0.9rem;
+    color: #929292;
+    line-height: 1;
+}
+.cardSearchFligth__body label{
+    font-size: 0.9rem;
+    color: #929292;
+    line-height: 1;
+}
+
+.cardSearchFligth__containerIdaItem {
+    width: 30%;
+}
+.cardSearchFligth__containerOriginItem {
+    width: 20%;
+}
+.cardSearchFligth__containerDestinyItem {
+    width: 30%;
+}
+.cardSearchFligth__containerPackageItem {
+    width: 20%;
+}
+
+.cardSearchFligth__itemPackages {
+    display: flex;
+    align-items: center;
+}
+.cardSearchFligth__itemPackages img {
+    width: 30px;
+}
+
+.cardSearchFligth__lineDiv {
+    width: 97%;
+    height: 2px;
+    background: #003762;
+}
+
+.cardSearchFligth__prices {
+    width: 25%;
+    background: #a39e9e;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.cardSearchFligth__pricesHead {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    color: #fff;
+}
+.cardSearchFligth__pricesHead span {
+    font-size: 0.8rem;
+    display: block;
+    line-height:1;
+}
+.cardSearchFligth__pricesHead p {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 6px;
+}
+
+.cardSearchFligth__priceRegular p{
+    font-size: 0.9rem;
+    display: block;
+    line-height:1;
+    margin-bottom: 0;
+    font-weight: initial;
+    text-align: right;
+}
+.cardSearchFligth__priceRegular span{
+    font-size: 0.6rem;
+    display: block;
+    line-height:1;
+}
+
+.cardSearchFligth__priceTable {
+    display: flex;
+    width: 100%;
+}
+.cardSearchFligth__priceTable p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: initial;
+}
+.cardSearchFligth__priceTableLeft {
+    width: 50%;
+}
+.cardSearchFligth__priceTableRigth {
+    width: 50%;
+    text-align: right;
+}
+.cardSearchFligth__priceLine {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+.cardSearchFligth__priceBtn button {
+    background: transparent linear-gradient(180deg, #B0A36C 0%, #DBDD9C 36%, #C7BC7C 78%, #938441 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF99;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #000000;
+    /* width: 200px; */
+    padding: 6px 20px;
+    border: none;
+    transition: 1s ease all;
+    cursor: pointer;
+}
+.cardSearchFligth__priceBtn button:hover {
+    box-shadow: none;
+    transition: 1s ease all;
+}

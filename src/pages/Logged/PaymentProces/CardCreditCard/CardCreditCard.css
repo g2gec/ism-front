@@ -1,0 +1,21 @@
+.cardCreditCard {
+  background: transparent radial-gradient(closest-side at 50% 50%, #003c6b 0%, #001e36 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 17px;
+  padding: 40px;
+}
+.cardCreditCard__header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.cardCreditCard__header h4 {
+  color: #17ffd8;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.cardCreditCard__header img {
+  filter: invert(1);
+  width: 60px;
+}

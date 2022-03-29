@@ -1,0 +1,22 @@
+.travelsHistory {
+    background: transparent radial-gradient(closest-side at 50% 50%, #003C6B 0%, #001E36 100%) 0% 0% no-repeat padding-box;
+}
+.travelsHistory__header h2{
+    font-weight: bold;
+    color: #fff;
+}
+.travelsHistory__content {
+    display: flex;
+    justify-content: center;
+}
+.travelsHistory__cardContainer {
+    width: 70%;
+}
+@media (max-width: 576px) {
+    .travelsHistory__header h2 {
+        text-align: center;
+    }
+    .travelsHistory__cardContainer {
+        width: 100%;
+    }
+}

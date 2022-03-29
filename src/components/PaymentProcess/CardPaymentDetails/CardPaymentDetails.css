@@ -1,0 +1,38 @@
+.cardPaymentDetails {
+    background: #fff;
+    border-radius: 17px;
+    padding: 20px 5px;
+    color: #000;
+}
+.cardPaymentDetails__line {
+    width: 100%;
+    height: 2px;
+    background: #707070;
+    margin-bottom: 10px;
+}
+.cardPaymentDetails__item {
+    display: flex;
+    justify-content: space-between;
+}
+.cardPaymentDetails__item p {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.cardPaymentDetails__item span {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.cardPaymentDetails__total {
+    display: flex;
+    justify-content: space-between;
+}
+.cardPaymentDetails__total p {
+    font-weight: bold;
+    color: #003C6B;
+    font-size: 0.9rem;
+}
+.cardPaymentDetails__total span {
+    font-weight: bold;
+    color: #003C6B;
+    font-size: 0.9rem;
+}

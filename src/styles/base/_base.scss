@@ -1,0 +1,375 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  // height: 100vh;
+  // width: 100vw;
+}
+
+.adminRoutes {
+  background: transparent radial-gradient(closest-side at 50% 50%, #003c6b 0%, #001e36 100%) 0% 0% no-repeat padding-box;
+}
+.admin__mainTitle {
+  display: flex;
+  color: #fff;
+}
+.admin__mainPanel {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+  overflow: hidden;
+}
+.admin__panelHeader {
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #fff;
+}
+.admin__panelHeader button {
+  border-radius: 22px;
+  background: none;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 4px 10px;
+  margin-right: 10px;
+}
+.admin__btnHeaderActive {
+  background: transparent radial-gradient(closest-side at 50% 50%, #707070 0%, #383838 100%) 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+}
+.admin__panelContent {
+  padding: 30px 0;
+}
+// UI
+.admin__titlePanel {
+  color: #9f9f9f;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.admin__inputText {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.admin__inputText p {
+  margin-bottom: 0;
+}
+.admin__inputText input {
+  background: #fff;
+  border: 1px solid #c9c07f;
+  width: 100%;
+  padding: 2px 8px;
+  outline: none;
+}
+.admin__inputText input::placeholder {
+  color: #000;
+  opacity: 0.4;
+  font-size: 0.8rem;
+}
+.admin__artPanel p {
+  margin-bottom: 0;
+}
+.admin__artPanel label {
+  width: 140px;
+  height: 80px;
+  border: 1px solid;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+}
+.admin__panelBtn {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #ffffff99;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #000000;
+  padding: 4px 30px;
+  border: none;
+  transition: 1s ease all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin__panelBtn img {
+  width: 25px;
+}
+.admin__panelBtn:hover {
+  box-shadow: none;
+  transition: 1s ease all;
+}
+
+.admin__inputSelect select {
+  background: #fff;
+  border: 1px solid #c9c07f;
+  width: 100%;
+  padding: 6px 8px;
+  outline: none;
+  font-size: 0.8rem;
+}
+.admin__inputSelect p {
+  margin-bottom: 0;
+}
+
+.admin__btn {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 4px 20px;
+  align-items: center;
+  outline: none;
+  border-radius: 17px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.admin__btn img {
+  width: 20px;
+  margin-right: 4px;
+  filter: invert(1);
+}
+.admin__btnSearch {
+  background: #003c6b;
+}
+.admin__btnDelete {
+  background: #ff3b4f;
+}
+.admin__btnSuspend {
+  background: #6b6cb0;
+}
+.admin__btnEdit {
+  background: #17ffd8;
+}
+
+.adminTable {
+  width: 100%;
+  background: transparent radial-gradient(closest-side at 50% 50%, #707070 0%, #383838 100%) 0% 0% no-repeat padding-box;
+  padding: 22px 60px;
+}
+.adminTable__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdd9c;
+  padding-bottom: 20px;
+}
+.adminTable__headerItem {
+  width: 19%;
+}
+.adminTable__headerItem span {
+  color: #fff;
+}
+.adminTable__bodyRow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdd9c;
+  align-items: center;
+}
+.adminTable__bodyItem {
+  width: 19%;
+  padding: 8px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #fff;
+}
+.adminTable__bodyItem span {
+  color: #fff;
+}
+.adminTable__bodyInput {
+  margin-left: -20px;
+}
+
+// VENDORS
+.vendorRoutes {
+  background: transparent linear-gradient(51deg, #707070 0%, #6f6f7a 14%, #6f6f7b 16%, #6b6cb0 100%) 0% 0% no-repeat padding-box;
+}
+.vendor__mainTitle {
+  display: flex;
+  color: #fff;
+}
+.vendor__panelHeader {
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #fff;
+}
+.vendor__mainPanel {
+  background: transparent radial-gradient(closest-side at 50% 50%, #003c6b 0%, #001e36 100%) 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+  overflow: hidden;
+}
+.vendor__panelHeader button {
+  border-radius: 22px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 4px 10px;
+  margin-right: 10px;
+}
+.vendor__btnHeaderActive {
+  background: transparent radial-gradient(closest-side at 50% 50%, #707070 0%, #383838 100%) 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+}
+.vendor__panelContent {
+  padding: 30px 0;
+}
+
+.vendor__inputText {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.vendor__inputText p {
+  margin-bottom: 0;
+  color: #fff;
+}
+.vendor__inputText input {
+  background: #fff;
+  border: 1px solid #c9c07f;
+  width: 100%;
+  padding: 2px 8px;
+  outline: none;
+}
+.vendor__inputText input::placeholder {
+  color: #000;
+  opacity: 0.4;
+  font-size: 0.8rem;
+}
+
+.vendor__inputSelect select {
+  background: #fff;
+  border: 1px solid #c9c07f;
+  width: 100%;
+  padding: 6px 8px;
+  outline: none;
+  font-size: 0.8rem;
+}
+.vendor__inputSelect p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.vendorTable {
+  width: 100%;
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  padding: 22px 60px;
+  overflow-x: auto;
+}
+.vendorTable__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+.vendorTable__headerItem {
+  min-width: 25%;
+}
+.vendorTable__headerItem span {
+  color: #000;
+}
+.vendorTable__bodyRow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  align-items: center;
+}
+.vendorTable__bodyItem {
+  min-width: 25%;
+  padding: 8px 0;
+}
+.vendorTable__bodyItem span {
+  color: #000;
+}
+.vendorTable__bodyInput {
+  margin-left: -20px;
+}
+.input__error {
+  color: red;
+  font-size: 0.7rem;
+}
+.admin__inputDate input {
+  border: none !important;
+  background: transparent;
+}
+.admin__inputDate .react-datetime-picker__wrapper {
+  background: none;
+  border: 1px solid #c9c07f;
+  width: 100%;
+  padding: 1px 8px;
+  outline: none;
+  font-size: 0.8rem;
+  border-radius: 0;
+}
+@media (max-width: 576px) {
+  .adminTable {
+    overflow-x: auto;
+  }
+  .adminTable__header {
+    width: max-content;
+  }
+  .adminTable__headerItem {
+    width: 125px;
+  }
+  .adminTable__bodyRow {
+    width: max-content;
+  }
+  .adminTable__bodyItem {
+    width: 125px;
+  }
+
+  .vendorTable {
+    overflow-x: auto;
+  }
+  .vendorTable__header {
+    width: max-content;
+  }
+  .vendorTable__headerItem {
+    width: 125px;
+  }
+  .vendorTable__bodyRow {
+    width: max-content;
+  }
+  .vendorTable__bodyItem {
+    width: 125px;
+  }
+
+  .admin__btn {
+    margin-bottom: 7px;
+  }
+}
+
+.paymentProcess__input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.paymentProcess__input span {
+  font-size: 1rem;
+  opacity: 1;
+}
+.paymentProcess__input input {
+  border: 1px solid #d4d190;
+  background: none;
+  color: #fff;
+  padding: 4px 6px;
+}
+.paymentProcess__input input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+.paymentProcess__select {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.paymentProcess__select span {
+  font-size: 1rem;
+  opacity: 1;
+}
+.paymentProcess__select select {
+  border: 1px solid #d4d190;
+  background: none;
+  color: #fff;
+  padding: 4px 6px;
+}

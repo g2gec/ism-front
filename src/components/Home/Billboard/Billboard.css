@@ -1,0 +1,53 @@
+.billboard {
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* background-attachment: fixed; */
+}
+/* .banner1 {
+  background-image: url('../../../assets/images/portadaInicio.png');
+} */
+.billboard__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  z-index: 1;
+  margin-top: 10vh;
+}
+.billboard__content h2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+.billboard__content p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 400;
+  width: 390px;
+}
+#bilboardHome .swiper-pagination-bullet {
+  background: #ffffff;
+  width: 16px;
+  height: 16px;
+}
+@media (max-width: 576px) {
+  .billboard__content {
+    margin-top: 20vh;
+    width: 85%;
+    text-align: center;
+    align-items: center;
+  }
+  .billboard__content h2 {
+    font-size: 2rem;
+  }
+  .billboard__content p {
+    width: auto;
+    font-size: 0.8rem;
+  }
+}

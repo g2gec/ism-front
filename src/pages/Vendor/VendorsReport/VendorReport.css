@@ -1,0 +1,36 @@
+.vendorReports__comisions {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: flex-end;
+    text-align: center;
+}
+.vendorReports__comisions1 {
+    font-weight: bold;
+    background: #D5D5D5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000099;
+    border-radius: 17px;
+}
+.vendorReports__comisions2 {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.vendorReports__export {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+    align-items: center;
+    color: #fff;
+}
+.vendorReports__export img {
+    width: 30px;
+    margin-right: 6px;
+    filter: invert(1);
+}
+.vendorReports__export label {
+    font-weight: bold;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.membershipsCreate {
+  border-radius: 17px;
+  background: #fff;
+  padding: 20px 60px;
+  margin-bottom: 2rem;
+}
+.imageMembership__reference {
+  font-weight: bold;
+  color: #000000;
+  opacity: 0.4;
+}

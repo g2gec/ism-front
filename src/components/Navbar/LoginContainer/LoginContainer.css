@@ -1,0 +1,66 @@
+.loginContainer {
+    position: relative;
+}
+.loginContainer__login {
+    position: absolute;
+    /* background: transparent linear-gradient(46deg, #707070 0%, #6F6F7A 5%, #6F6F7B 11%, #1D366F 100%) 0% 0% no-repeat padding-box; */
+    background: #1D366F;
+}
+.loginContainer__login {
+    position: absolute;
+    bottom: -180px;
+    right: 0;
+    padding: 10px 40px;
+    border-radius: 18px;
+    text-align: center;
+}
+.loginContainer__login form {
+    width: 250px;
+}
+.loginContainer__login h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.loginContainer__login input {
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+    padding: 2px 5px;
+}
+.loginContainer__login input::placeholder {
+    color: #9F9F9F;
+}
+.loginContainer__loginBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginContainer__loginBtns a {
+    color: #fff !important;
+    font-size: 0.8rem;
+}
+.btn__forgetPassword {
+    background: none !important;
+    font-size: 0.8rem !important;
+    font-weight: normal !important;
+    color: #fff;
+    cursor: pointer;
+}
+.loginContainer__login button {
+    background: transparent linear-gradient(180deg, #B0A36C 0%, #DBDD9C 36%, #C7BC7C 78%, #938441 100%) 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 3px 6px #FFFFFF99;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #000000 !important;
+    width: 50%;
+    padding: 6px 0;
+    border: none;
+    transition: 1s ease all;
+    display: flex;
+    justify-content: center;
+}
+.loginContainer__login button:hover {
+    box-shadow: none;
+    transition: 1s ease all;
+}

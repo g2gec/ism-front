@@ -1,0 +1,285 @@
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 999;
+}
+
+.modal-fondo {
+  background-color: rgb(0 0 0 / 68%);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 70px;
+  position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modal2 {
+  background: transparent radial-gradient(closest-side at 50% 50%, #003c6b 0%, #001e36 100%) 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  color: rgb(51, 51, 51);
+  display: inline;
+  max-height: 75vh;
+  max-width: 80%;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  overflow: inherit;
+  transform: translate(0) !important;
+  margin: 0 !important;
+  overflow-y: auto;
+}
+.modal2::-webkit-scrollbar {
+  border-radius: 100%;
+  margin: 10px;
+}
+.modal2::-webkit-scrollbar-thumb {
+  background: #fff;
+  width: 10%;
+  cursor: pointer;
+}
+.modal2::-webkit-scrollbar-track {
+  background: #8f9da8;
+  padding: 3px 0;
+}
+
+.modalProductDetails {
+  color: #fff;
+}
+.modalProductDetails h5 {
+  font-weight: bold;
+}
+.modalProductDetails__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modalProductDetails__title h4 {
+  margin-bottom: 0;
+}
+.modalProductDetails__title span {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.modalProductDetails__btnClose {
+  background: none;
+  border: none;
+}
+.modalProductDetails__btnClose i {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.modalProductDetails__infoContent {
+  background: #6b6cb0 0% 0% no-repeat padding-box;
+  font-size: 0.8rem;
+  padding: 8px;
+  list-style: none;
+}
+.modalProductDetails__infoContent p {
+  font-weight: 400;
+}
+.modalProductDetails__infoContent ul {
+  list-style: none;
+  margin: 0;
+}
+.modalProductDetails__infoContent ul li {
+  padding: 4px 0;
+}
+
+.modalProductDetails__btnPay {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #ffffff99;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #000000;
+  width: 160px;
+  padding: 4px 0;
+  border: none;
+  transition: 1s ease all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalProductDetails__btnPay img {
+  width: 20px;
+}
+.modalProductDetails__btnPay:hover {
+  box-shadow: none;
+  transition: 1s ease all;
+}
+
+.modalProductDetails__price {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.modalProductDetails__termnContent p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+.modalProductDetails__termnBtn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.modalProductDetails__termnBtn img {
+  margin-right: 5px;
+  width: 30px;
+  filter: invert(1);
+}
+
+/* INFO ROOMS */
+.modalProduct__infoRoomTitle {
+  margin-bottom: 0;
+  font-weight: bold !important;
+}
+.modalProductDetails__infoRoom {
+  background: #fff;
+  padding: 4px;
+}
+.modalProductDetails__infoRoom span {
+  color: #929292;
+}
+
+/* SEARCH ROOMS */
+.modalProducts__searchRooms {
+  display: flex;
+  align-items: center;
+}
+.modalProducts__searchRoomsForm {
+  display: flex;
+  align-items: center;
+}
+.modalProducts__searchRoomsBtns {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.modalProducts__searchRoomsBtns span {
+  font-size: 0.7rem;
+}
+.modalProducts__searchRoomsInput button {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+}
+.modalProducts__searchRoomsInput input {
+  border-radius: 10px;
+  width: 50px;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 0 6px;
+}
+.modalProducts__btnSearch {
+  margin-top: -20px;
+}
+.modalProductDetails__infoRoom select {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* RegisterAgeChildren */
+.registerAgeChildren {
+  position: absolute;
+  left: -50px;
+  bottom: -98px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 10px;
+  z-index: 10;
+}
+.registerAgeChildren input {
+  outline: none;
+}
+.registerAgeChildren__btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.registerAgeChildren__btns {
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  padding: 4px 20px;
+  background: #fff;
+  color: #000;
+  font-size: 0.8rem;
+}
+.registerAgeChildren__section {
+  position: absolute;
+  background: white;
+  top: 32px;
+  left: -22px;
+  z-index: 100;
+  padding: 6px;
+  border-radius: 10px;
+  width: 170px;
+}
+.registerAgeChildren__sectionInput {
+  flex-direction: column;
+  display: flex;
+}
+.registerAgeChildren__sectionInput label {
+  color: #6b6cb0;
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-align: left;
+  margin-bottom: 1px;
+}
+.registerAgeChildren__sectionInput input {
+  width: 100%;
+  text-align: center;
+}
+.registerAgeChildren__sectionInput hr {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+}
+.registerAgeChildren__sectionMain h6 {
+  font-size: 0.8rem;
+  color: #6b6cb0;
+  margin-bottom: 10px;
+}
+.registerAgeChildren__sectionMain button {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box !important;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin-left: 8px;
+}
+.registerAgeChildren__sectionMain button i {
+  font-size: 0.8rem;
+}
+.registerAgeChildren__max {
+  font-size: 0.8rem;
+  color: #000;
+  margin-bottom: 0;
+}

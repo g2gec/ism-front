@@ -1,0 +1,14 @@
+.promotionLoged {
+    height: 40vh;
+    width: 75%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotionLoged h4 {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10%;
+    font-size: 1.7rem;
+}

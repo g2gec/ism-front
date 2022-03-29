@@ -1,0 +1,125 @@
+.contactUs {
+    padding: 30px 0;
+    background: transparent radial-gradient(closest-side at 50% 50%, #003C6B 0%, #001E36 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+}
+
+.contactUs__main {
+    text-align: center;
+    width: 55%;
+}
+.contactUs__title h3{
+    color: #C2C793;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.contactUs__title h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+}
+ .contactUs__form {
+     width: 100%;
+ }
+ .contactUs__containerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .contactUs__containerForm-img {
+     width: 30%;
+     display: flex;
+ }
+ .contactUs__form input {
+     width: 100%;
+     margin-bottom: 10px;
+     background: none;
+     border: 2px solid #C6C184;
+     padding: 8px 10px;
+     color: #fff;
+     outline: none;
+ }
+ .contactUs__form input::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+.contactUs__formBtn{
+    background: transparent linear-gradient(180deg, #B0A36C 0%, #DBDD9C 36%, #C7BC7C 78%, #938441 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF99;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #000000;
+    width: 200px;
+    padding: 6px 0;
+    border: none;
+    transition: 1s ease all;
+}
+
+.contactUs__formBtn:hover {
+    box-shadow: none;
+    transition: 1s ease all;
+}
+.contactUs__formText {
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.contact {
+    padding: 30px 0;
+    background: transparent linear-gradient(180deg, #B0A36C 0%, #DBDD9C 36%, #C7BC7C 78%, #938441 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center; 
+}
+.contact__title h3{
+    color: #002E53;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.contact__title h4{
+    color: #707070;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.contact__form input {
+    width: 100%;
+    margin-bottom: 10px;
+    background: none;
+    border: 3px solid #002543;
+    padding: 8px 10px;
+    color: #fff;
+    outline: none;
+}
+.contact__form input::placeholder {
+   color: #000;
+   opacity: 0.7;
+}
+
+.contact__formBtn{
+    background: transparent radial-gradient(closest-side at 50% 50%, #003C6B 0%, #001E36 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF99;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    width: 200px;
+    padding: 6px 0;
+    border: none;
+    transition: 1s ease all;
+}
+
+.contact__formBtn:hover {
+    box-shadow: none;
+    transition: 1s ease all;
+}
+
+@media (max-width: 576px) {
+    .contactUs__main {
+        width: 80%;
+    }
+    .contactUs__title h3 {
+        font-size: 2rem;
+    }
+    .contactUs__title h4 {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,68 @@
+.memberships__create {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.memberships__create img {
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.memberships__create span {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.memberships__list {
+  display: flex;
+  flex-direction: column;
+}
+.membershipCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background: #e5e4c2;
+  border-radius: 17px;
+  cursor: pointer;
+  align-items: center;
+}
+.membershipCard__details {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.membershipCard__img {
+  width: 70px;
+  margin-right: 10px;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.membershipCard__img i {
+  font-size: 2rem;
+}
+.membershipCard__img div span {
+  font-size: 0.7rem;
+  color: #000;
+  text-decoration: none;
+}
+.membershipCard__details h4 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.membershipCard__details span {
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #6b6cb0;
+  text-decoration: underline;
+}
+.membershipCard__check {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.membershipCard__check img {
+  width: 50px;
+}

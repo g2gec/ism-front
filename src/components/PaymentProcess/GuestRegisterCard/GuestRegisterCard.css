@@ -1,0 +1,9 @@
+.register__guestsCard {
+    background: #fff;
+    border-radius: 17px;
+    padding: 10px;
+    color: #000 !important;
+}
+.register__guestsCard__title {
+    color: #000 !important;
+}

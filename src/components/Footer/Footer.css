@@ -1,0 +1,53 @@
+.footer {
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 50% 50%, #707070 0%, #383838 100%) 0% 0% no-repeat padding-box;
+    color: #CCCCCC;
+}
+.footer__main {
+    width: 100%;
+    justify-content: space-between;
+}
+.footer__column {
+    width: 18%;
+}
+.footer__title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.footer__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+.footer__text {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.footer__textLink {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+.accordion {
+    background: none;
+}
+.card {
+    background: none;
+}
+.accordion button {
+    outline: none;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.accordion button:hover {
+    outline: none;
+    text-decoration: none;
+}
+@media (max-width: 576px) {
+    .footer__column {
+        width: 100%;
+    }
+    .footer__copy p {
+        font-size: .8rem;
+    }
+}

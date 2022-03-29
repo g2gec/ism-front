@@ -1,0 +1,114 @@
+.travelCard {
+    background: transparent linear-gradient(180deg, #B0A36C 0%, #DBDD9C 36%, #C7BC7C 78%, #938441 100%) 0% 0% no-repeat padding-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 17px;
+    display: flex;
+    width: 100%;
+}
+.travelCard__img {
+    height: 200px;
+    width: 30%;
+    border-radius: 17px;
+}
+.travelCard__info {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+.travelCard__infoDate {
+    margin-bottom: 0;
+    opacity: 0.8;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+.travelCard__infoCountry {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.travelCard__infoTitle {
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.travelCard__infoCategory {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.travelCard__infoHotel{
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1;
+}
+.travelCard__prices {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.travelCard__pricesContent {
+    display: flex;
+    background: #D1D1D1;
+    border-radius: 17px;
+    padding: 10% 10px;
+    width: 90%;
+}
+.travelCard__pricesText {
+    width: 50%;
+    justify-content: flex-end;
+    text-align: end;
+}
+.travelCard__pricesText p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+.travelCard__pricesAmount {
+    width: 50%;
+}
+.travelCard__pricesAmount p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.travelCard__btn {
+    background: #fff;
+    border-radius: 17px;
+    font-weight: bold;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 6px 40px;
+
+}
+@media (max-width: 576px) {
+    .travelCard {
+        flex-wrap: wrap;
+    }
+    .travelCard__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .travelCard__info {
+        width: 50%;
+    }
+    .travelCard__prices {
+        width: 50%;
+    }
+    .travelCard__pricesContent {
+        padding: 5% 7px;
+    }
+    .travelCard__pricesText p {
+        font-size: 0.7rem;
+    }
+    .travelCard__pricesAmount p {
+        font-size: 0.7rem;
+    }
+    .travelCard__infoTop {
+        margin-bottom: 10px;
+    }
+}

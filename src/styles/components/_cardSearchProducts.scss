@@ -1,0 +1,110 @@
+.cardSearchHotel {
+  background: #fff;
+  padding: 10px;
+  border-radius: 14px;
+  margin-right: 20px;
+  min-width: 44%;
+}
+.cardSearchHotel__image {
+  width: 100%;
+  height: 100%;
+}
+.cardSearchHotel__image span {
+  cursor: pointer;
+  padding: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.cardSearchHotel__image span:hover {
+  text-decoration: underline;
+}
+.cardSearchHotel__body h4 {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #707070;
+}
+.cardSearchHotel__description {
+  display: flex;
+  align-items: center;
+}
+.cardSearchHotel__description span {
+  font-size: 0.8rem;
+  margin-right: 10px;
+  color: #929292;
+}
+.cardSearchHotel__description i {
+  font-size: 0.8rem;
+  color: #b0a36c;
+}
+.cardSearchHotel__points {
+  margin-left: 10px;
+  background: transparent radial-gradient(closest-side at 50% 50%, #707070 0%, #383838 100%) 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+.cardSearchHotel__points span {
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 0;
+}
+.cardSearchHotel__services {
+  display: flex;
+}
+.cardSearchHotel__servicesImage img {
+  width: 20px;
+  height: 20px;
+}
+.cardSearchHotel__price {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cardSearchHotel__price p {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 1.5rem;
+  color: #6b6cb0;
+}
+.cardSearchHotel__price button {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #ffffff99;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #000000;
+  padding: 6px 20px;
+  border: none;
+  transition: 1s ease all;
+  display: flex;
+  align-items: center;
+}
+.cardSearchHotel__price button img {
+  width: 20px;
+}
+.cardSearchHotel__price button:hover {
+  box-shadow: none;
+  transition: 1s ease all;
+}
+
+.cardSearchHotel__text {
+  font-size: 0.6rem;
+  line-height: 1;
+  text-align: justify;
+  margin-top: 8px;
+}
+
+.cardSearchHotel__info {
+  display: flex;
+  align-items: center;
+}
+.cardSearchHotel__info img {
+  width: 20px;
+  margin-right: 6px;
+}
+.cardSearchHotel__info span {
+  font-size: 0.7rem;
+  color: #929292;
+}

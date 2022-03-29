@@ -1,0 +1,162 @@
+.searchAdvance {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 40px;
+}
+.searchAdvance h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+  margin-bottom: 0;
+}
+.searchAdvance__content p {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+.searchAdvance__searchService {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  background: #e9e8c9;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 8px;
+}
+.searchAdvance__searchService label {
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.searchAdvance__searchDestiny {
+  width: 30%;
+}
+.searchAdvance__searchDestiny h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+}
+.searchAdvance__searchDestiny input {
+  background: #e9e8c9;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 8px;
+  width: 100%;
+  font-size: 0.8rem;
+  outline: none;
+}
+.searchAdvance__searchDestiny input::placeholder {
+  color: #000;
+}
+.searchAdvance__searchDates {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.searchAdvance__datesDestiny {
+  width: 46%;
+}
+.searchAdvance__searchDates h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+}
+.searchAdvance__searchDates input {
+  background: #e9e8c9;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 8px;
+  width: 100%;
+  outline: none;
+}
+.searchAdvance__searchDates input::placeholder {
+  color: #000;
+}
+.searchAdvance__searchBtn {
+  margin-left: 10px;
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 22px;
+}
+.searchAdvance__searchDestinyBtn {
+  width: 100% !important;
+  background: transparent radial-gradient(closest-side at 50% 50%, #003c6b 0%, #001e36 100%) 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+  font-size: 0.8rem !important;
+}
+.searchAdvance__searchText {
+  font-size: 0.8rem !important;
+}
+.searchAdvance__searchInputMulti {
+  margin-top: 8px;
+}
+.searchAdvance__searchInputMulti input {
+  margin-right: 6px;
+}
+.searchAdvance__searchInputMulti label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+}
+
+.searchAdvance button {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #ffffff99;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #000000;
+  width: 200px;
+  padding: 6px 0;
+  border: none;
+  transition: 1s ease all;
+}
+.searchAdvance button:hover {
+  box-shadow: none;
+  transition: 1s ease all;
+}
+.searchAdvance__boxTitlePurple {
+  margin-top: 10px;
+  margin-bottom: -10px !important;
+  background: #6b6cb0;
+  padding: 5px;
+  font-weight: bold;
+  width: max-content;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.searchAdvance__boxTitlePurple {
+  margin-bottom: 0;
+}
+@media (max-width: 576px) {
+  .searchAdvance {
+    padding: 12px 10px;
+    margin-bottom: 10px;
+  }
+  .searchAdvance__searchService {
+    width: 100%;
+  }
+  .searchAdvance__searchDestiny {
+    text-align: start;
+    width: 48%;
+    margin-bottom: 8px;
+  }
+  .searchAdvance__searchDestiny h4 {
+    font-size: 0.9rem;
+  }
+  .billboardLogged__searchDates {
+    width: 48% !important;
+    text-align: start;
+  }
+  .billboardLogged__searchDates h4 {
+    font-size: 0.9rem !important;
+  }
+  .searchAdvance__searchBtn {
+    width: 30%;
+  }
+}

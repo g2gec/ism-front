@@ -1,0 +1,27 @@
+.vendorMenu {
+    background: transparent radial-gradient(closest-side at 50% 50%, #003C6B 0%, #001E36 100%) 0% 0% no-repeat padding-box;
+    border-radius: 17px;
+    padding: 30px 10px;
+}
+.vendorMenu ul {
+    list-style: none;
+}
+.vendorMenu ul li{
+    color: #fff;
+    border-bottom: 1px solid #C7BC7C;
+    cursor: pointer;
+    padding: 5px 0;
+}
+.vendorMenu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+.vendorMenu__linkActive {
+    background: #6B6CB0;
+    width: max-content;
+    border-radius: 10px;
+    padding: 0 4px;
+}

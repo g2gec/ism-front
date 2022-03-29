@@ -1,0 +1,33 @@
+.banks {
+    width: 100%;
+    background: #D1D1D1;
+    border-radius: 43px;
+    opacity: 0.7;
+    height: auto;
+    margin-bottom: 6vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+}
+.banks__activeLoged {
+    width: 100%;
+    background: #fff;
+    border-radius: 43px;
+    height: auto;
+    margin-bottom: 6vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+}
+.banks__img {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.swiper-slide {
+    margin: 0;
+    width: auto;
+}

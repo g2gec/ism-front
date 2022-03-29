@@ -1,0 +1,87 @@
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 7px 10px;
+  transition: color 0.3s ease;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: darken($color: white, $amount: 10);
+  }
+}
+.btn_primary {
+  background-color: $primary;
+  border-radius: 2px;
+  &:disabled {
+    background-color: lighten($color: $primary, $amount: 15);
+  }
+  &:hover {
+    background-color: darken($color: $primary, $amount: 15);
+  }
+}
+.btn_danger {
+  background-color: red;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: darken($color: red, $amount: 10);
+  }
+}
+.btn_block {
+  width: 100%;
+}
+.btn__gold {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 3px 6px #ffffff99 !important;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #000000 !important;
+  padding: 6px 30px;
+  border: none;
+  transition: 1s ease all !important;
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+.btn__gold img {
+  width: 25px !important;
+}
+.btn__gold:hover {
+  box-shadow: none;
+  transition: 1s ease all;
+}
+
+.react-datetime-picker__wrapper {
+  border: none;
+  text-align: center;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 2px 4px;
+  font-size: 0.8rem;
+  display: flex;
+}
+.react-time-picker__wrapper {
+  border: none;
+  text-align: center;
+  border: none;
+  background: none;
+  padding: 5px 8px;
+  display: flex;
+}
+.formCreateOrder__input .react-datetime-picker__wrapper {
+  background: none;
+  font-size: 1rem;
+}
+.react-datetime-picker__calendar-button {
+  display: none;
+}
+.react-time-picker__clock-button {
+  display: none !important;
+}
+.react-datetime-picker__inputGroup__divider {
+  color: black !important;
+}

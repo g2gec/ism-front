@@ -1,0 +1,301 @@
+.chatPage__mainContacts {
+    border-radius: 17px;
+    border: 1px solid #D0CE8F;
+    padding: 12px;
+}
+.chatPage__mainContacts ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.chatPage__mainContacts ul li p{
+    color: #fff;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.chatPage__contactAvatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    display: flex;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.chatAvatarOnline {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #0AFF43;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+.chatAvatarAway {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: gray;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+.chatPage__mainChat {
+    background: #6B6CB0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.chatPage__headerChat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+    border-bottom: 1px solid #fff;
+}
+.chatPage__infoContact {
+    display: flex;
+    align-items: center;
+}
+.chatPage__infoContact p {
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+}
+.chatPage__headerIcons img{
+    filter: invert(1);
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.chatPage__chatMessages {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 260px;
+    overflow: auto;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.chatPage__chatMessages::-webkit-scrollbar{
+    border-radius: 100%;
+    margin: 5px;
+    width: 5px;
+
+}
+.chatPage__chatMessages::-webkit-scrollbar-thumb{
+    background: #fff;
+    width: 5px;
+    cursor: pointer;
+}
+.chatPage__chatMessages::-webkit-scrollbar-track{
+    background: #8F9DA8;
+    padding: 1px 0;
+}
+.chatMessages__card {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.chatMessages__cardAvatar {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.chatMessages__cardText {
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 17px;
+    padding: 8px;
+    font-size: .8rem;
+    // margin-bottom: 12px;
+    margin: 0 8px;
+}
+.chatMessages__cardText p {
+    margin-bottom: 0;
+}
+
+.chatMessages__cardFile {
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 17px;
+    padding: 8px;
+    font-size: .8rem;
+    display: flex;
+    margin: 0 8px;
+}
+.chatMessages__cardFile button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #6B6CB0;
+    display: flex;
+    align-items: center;
+}
+.chatMessages__cardFile button:hover {
+    color: #938441;
+}
+.chatMessages__send {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.chatMessages__sendContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chatSendContainer__icons {
+    width: 10%;
+    display: flex;
+    position: relative;
+}
+.chatSendContainer__icons img{
+    width: 45%;
+    filter: invert(1);
+    cursor: pointer;
+}
+.chatSendContainer__input {
+    width: 80%;
+}
+.chatSendContainer__input input {
+    width: 100%;
+    outline: none;
+    border-radius: 17px;
+    padding: 8px 8px 8px 14px;
+    border: none;
+    font-size: .9rem;
+}
+.chatSendContainer__btn {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.chatSendContainer__btn button {
+    background: transparent linear-gradient(180deg, #B0A36C 0%, #DBDD9C 36%, #C7BC7C 78%, #938441 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF99;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #000000;
+    width: 80%;
+    padding: 6px 0;
+    border: none;
+    transition: 1s ease all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chatSendContainer__btn button img {
+    width: 25px;
+}
+.chatSendContainer__btn button:hover {
+    box-shadow: none;
+    transition: 1s ease all;
+}
+.chat__emojiPicker {
+    position: absolute;
+    left: 0;
+    top: -298px;
+}
+.aside.emoji-picker-react {
+    height: 290px !important;
+}
+.videoCallModal__img {
+    margin-bottom: 10px;
+}
+.videoCallModal__img img{
+    width: 100px;
+    height: 100px;
+}
+.videoCallModal__info h4 {
+    font-size: 1rem;
+}
+
+.chatSendContainer__inputWithFile {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    position: relative;
+    border-radius: 17px;
+    padding: 8px 8px 8px 14px;
+}
+.chatSendContainer__inputWithFile p {
+    margin-bottom: 0;
+    background: #d8d8d8;
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: bold;
+}
+.chat__buttonClearFile {
+    position: absolute;
+    background: #ededed;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+    right: 0;
+    margin-right: 10px;
+}
+
+.chatPage__inputSearch {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #D0CE8F;
+    border-radius: 20px;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+}
+.chatPage__inputSearch img {
+    width: 25px;
+    margin-right: 5px;
+}
+.chatPage__inputSearch input {
+    border: none;
+    font-size: .9rem;
+    outline: none;
+}
+
+@media (max-width: 576px) {
+    .chatPage__header {
+        text-align: center;
+    }
+    .chatPage__mainChat {
+        padding: 10px;
+    }
+    .chatPage__headerIcons img {
+        width: 30px;
+    }
+    .chatPage__contactAvatar {
+        width: 40px;
+        height: 40px;
+    }
+    .chatMessages__cardAvatar {
+        width: 40px;
+        height: 40px;
+    }
+    .chatSendContainer__input  {
+        width: 60%;
+    }
+    .chatSendContainer__icons {
+        width: 20%;
+    }
+    .chatSendContainer__btn  {
+        width: 15%;
+    }
+    .chatSendContainer__btn button {
+        width: 100%;
+    }
+  }

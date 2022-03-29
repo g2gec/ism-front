@@ -1,0 +1,24 @@
+.promotions {
+    width: 100%;
+    background: transparent linear-gradient(41deg, #707070 0%, #6F6F7B 5%, #6F6F7A 10%, #6B6CB0 100%) 0% 0% no-repeat padding-box;
+}
+.promotions__head h2{
+    font-weight: bold;
+    color: #ffffff;
+}
+.promotions__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.promotions__cards {
+    width: 70%;
+}
+@media (max-width: 576px) {
+    .promotions__cards {
+        width: 100%;
+    }
+    .promotions__head {
+        text-align: center;
+    }
+}

@@ -1,0 +1,122 @@
+.searchHotels {
+  padding: 20px;
+  background: transparent radial-gradient(closest-side at 50% 50%, #003c6b 0%, #001e36 100%) 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+}
+.searchHotels__filterContainer {
+  border-radius: 20px;
+  background: #70818e;
+  color: #ffffff;
+  padding: 20px 12px;
+}
+.searchHotels__filterContainer h4 {
+  text-align: center;
+  padding: 20px 10px;
+}
+.searchHotels__filterContainer ul {
+  list-style: none;
+  padding: 4px 10px;
+}
+.searchHotels__filterContainer ul li {
+  border-bottom: 1px solid #003c6b;
+  padding: 4px 0;
+}
+.searchHotels__filterContainer ul li span {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.searchHotel__cardsContainer {
+  padding: 0 10px 20px 0;
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+.searchHotel__cardsContainer::-webkit-scrollbar {
+  border-radius: 100%;
+  margin: 10px;
+}
+.searchHotel__cardsContainer::-webkit-scrollbar-thumb {
+  background: #b0a36c;
+  border-radius: 17px;
+  width: 10%;
+  cursor: pointer;
+}
+.searchHotel__cardsContainer::-webkit-scrollbar-thumb:hover {
+  background: #c7bc7c;
+}
+.searchHotel__cardsContainer::-webkit-scrollbar-track {
+  background: #8f9da8;
+  border-radius: 10px;
+  padding: 3px 0;
+}
+
+.searchEngine__containerFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.searchEngine__filter {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.searchEngine__filter i {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.searchHotels__pagination {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.searchHotels__pagination button {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.searchHotels__pagination i {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #000;
+  transition: 1s ease all;
+}
+.searchHotels__pagination i:hover {
+  color: #c7bc7c;
+  transition: 0.7s ease all;
+}
+.searchHotels__pagination p {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .searchHotels {
+    position: relative;
+  }
+  .cardSearchHotel {
+    min-width: 100% !important;
+  }
+  .searchHotels__filterContainer {
+    display: none;
+  }
+  .searchEngine__viewFiltersMovil {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}

@@ -1,0 +1,37 @@
+.searchEngine__title h4{
+    font-weight: bold;
+    color: #003762;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.searchEngine__title span{
+    color: #929292;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    line-height: 1;
+}
+.cardsSearchs__mySwiper {
+    width: 100%;
+    height: 190px;
+}
+
+.cardsSearchs__mySwiper .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 6px !important;
+    left: calc(50% / 2 + 25px);
+    width: 35% !important;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    height: 20px;
+}
+.cardsSearchs__mySwiper .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 4px;
+    margin-bottom: 3px;
+}
+.cardsSearchs__mySwiper .swiper-pagination-bullet {
+    background: #FFFFFF;
+    opacity: .5;
+}
+.cardsSearchs__mySwiper .swiper-pagination-bullet-active {
+    background: #FFFFFF;
+    opacity: inherit;
+}

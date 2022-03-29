@@ -1,0 +1,31 @@
+.searchFligths {
+    padding: 20px;
+    background: transparent radial-gradient(closest-side at 50% 50%, #003C6B 0%, #001E36 100%) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+}
+.searchFligths__filterContainer {
+    border-radius: 20px;
+    background: #70818E;
+    color: #FFFFFF;
+    padding: 20px 12px;
+}
+.searchFligths__filterContainer h4 {
+    text-align: center;
+    padding: 20px 10px;
+}
+.searchFligths__filterContainer ul {
+    list-style: none;
+    padding: 4px 10px;
+}
+.searchFligths__filterContainer ul li{
+    border-bottom: 1px solid #003C6B;
+    padding: 4px 0;
+}
+.searchFligths__filterContainer ul li span{
+    font-size: 0.8rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.searchFligths__cardsContainer {
+    padding: 20px;
+}

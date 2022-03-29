@@ -1,0 +1,11 @@
+.home__logedActive {
+    background: transparent radial-gradient(closest-side at 50% 50%, #003C6B 0%, #001E36 100%) 0% 0% no-repeat padding-box;
+}
+.home__productsPrmotion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.home__products {
+    width: 100%;
+}

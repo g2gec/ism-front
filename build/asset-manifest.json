@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.153e5893.chunk.css",
+    "main.js": "/static/js/main.669b33dd.chunk.js",
+    "main.js.map": "/static/js/main.669b33dd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec766902.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec766902.js.map",
+    "static/css/2.69d38f39.chunk.css": "/static/css/2.69d38f39.chunk.css",
+    "static/js/2.d4670d4f.chunk.js": "/static/js/2.d4670d4f.chunk.js",
+    "static/js/2.d4670d4f.chunk.js.map": "/static/js/2.d4670d4f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.69d38f39.chunk.css.map": "/static/css/2.69d38f39.chunk.css.map",
+    "static/css/main.153e5893.chunk.css.map": "/static/css/main.153e5893.chunk.css.map",
+    "static/js/2.d4670d4f.chunk.js.LICENSE.txt": "/static/js/2.d4670d4f.chunk.js.LICENSE.txt",
+    "static/media/01.81ab9c8d.mp4": "/static/media/01.81ab9c8d.mp4",
+    "static/media/02.8dda9553.jpg": "/static/media/02.8dda9553.jpg",
+    "static/media/03.7b3c6a53.jpg": "/static/media/03.7b3c6a53.jpg",
+    "static/media/american_express.c0d9cac5.png": "/static/media/american_express.c0d9cac5.png",
+    "static/media/asistencia-icon.0e0340d4.svg": "/static/media/asistencia-icon.0e0340d4.svg",
+    "static/media/banner_logged.28f6193a.jpg": "/static/media/banner_logged.28f6193a.jpg",
+    "static/media/bogota.3c3cb1e5.jpg": "/static/media/bogota.3c3cb1e5.jpg",
+    "static/media/carrito-icon.8cc5da4e.svg": "/static/media/carrito-icon.8cc5da4e.svg",
+    "static/media/maestro.e497fae5.png": "/static/media/maestro.e497fae5.png",
+    "static/media/HowWeWork.css": "/static/media/portadaQuienesSomos.39ec9053.jpg",
+    "static/media/visa.8191a54f.png": "/static/media/visa.8191a54f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec766902.js",
+    "static/css/2.69d38f39.chunk.css",
+    "static/js/2.d4670d4f.chunk.js",
+    "static/css/main.153e5893.chunk.css",
+    "static/js/main.669b33dd.chunk.js"
+  ]
+}

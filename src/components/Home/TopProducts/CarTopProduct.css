@@ -1,0 +1,71 @@
+.cardTopProduct {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.CardTopProduct__img {
+    height: 200px;
+}
+.CardTopProduct__info {
+    padding: 10px 20px;
+}
+.CardTopProduct__info h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    min-height: 60px;
+}
+.CardTopProduct__info p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    color: #707070;
+}
+.CardTopProduct__fligths {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.CardTopProduct__fligthsLine {
+    width: 1px;
+    height: 30px;
+    background: #707070;
+    margin: 0 11px;
+    margin-top: -10px;
+}
+.CardTopProduct__fligths p {
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 0;
+    color: #000;
+}
+.CardTopProduct__fligths span {
+    font-size: 0.8rem;
+    color: #6B6CB0;
+    font-weight: bold;
+}
+.CardTopProduct__infoIda {
+    width: 49%;
+}
+.CardTopProduct__infoVuelta {
+    width: 49%;
+}
+.CardTopProduct__infoBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.CardTopProduct__infoBtn button {
+    background: transparent linear-gradient(180deg, #B0A36C 0%, #DBDD9C 36%, #C7BC7C 78%, #938441 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF99;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #000000;
+    width: 120px;
+    padding: 4px 0;
+    border: none;
+    transition: 1s ease all;
+}
+.CardTopProduct__infoBtn button:hover {
+    box-shadow: none;
+    transition: 1s ease all;
+}

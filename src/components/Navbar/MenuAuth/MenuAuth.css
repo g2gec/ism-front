@@ -1,0 +1,52 @@
+.menuAuth {
+    width: max-content;
+    background: #6B6CB0;
+    padding: 2px 8px;
+    border-radius: 8px;
+    position: relative;
+}
+.menuAuth {
+    display: flex;
+    align-items: center;
+}
+.menuAuth__bars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuAuth__bars i {
+    color: #fff;
+    cursor: pointer;
+    margin-right: 6px;
+    font-size: 1.2rem;
+    stroke: 1;
+}
+.menuAuth__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuAuth__avatar img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.menuAuth__menu {
+    position: absolute;
+    left: -180px;
+    bottom: -260px;
+    background: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+.menuAuth__menu ul {
+    list-style: none;
+}
+.menuAuth__menu ul li{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 5px 0;
+    border-bottom: 1px solid #A59856;
+    cursor: pointer;
+}

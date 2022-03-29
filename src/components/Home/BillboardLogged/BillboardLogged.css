@@ -1,0 +1,184 @@
+.billboard {
+  width: 100%;
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-attachment: fixed;
+}
+.billboardLogged__shadow {
+  background: transparent linear-gradient(0deg, #003c6b00 0%, #001e36 100%) 0% 0% no-repeat padding-box;
+  width: 100%;
+  height: 35vh;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.billboardLogged {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* margin-top: 20vh; */
+  z-index: 5;
+  height: 83vh;
+  align-items: center;
+}
+.billboardLogged h2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 6px #ffffff66;
+}
+.billboardLogged p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 400;
+  width: 390px;
+  text-shadow: 0px 3px 6px #ffffff66;
+}
+.billboardLogged button {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #ffffff99;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #000000;
+  width: 200px;
+  padding: 6px 0;
+  border: none;
+  transition: 1s ease all;
+}
+.billboardLogged button:hover {
+  box-shadow: none;
+  transition: 1s ease all;
+}
+
+.billboardLogged__search {
+  background: transparent linear-gradient(180deg, #b0a36c 0%, #dbdd9c 36%, #c7bc7c 78%, #938441 100%) 0% 0% no-repeat padding-box;
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 40px;
+}
+.billboardLogged__search h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+  margin-bottom: 0;
+}
+.billboardLogged p {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+.billboardLogged__searchService {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  background: #e9e8c9;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 8px;
+}
+.billboardLogged__searchService label {
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.billboardLogged__searchDestiny {
+  width: 30%;
+}
+.billboardLogged__searchDestiny h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+}
+.billboardLogged__searchDestiny input {
+  background: #e9e8c9;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 8px;
+  width: 100%;
+  font-size: 0.8rem;
+  outline: none;
+}
+.billboardLogged__searchDestiny input::placeholder {
+  color: #000;
+}
+.billboardLogged__searchDates {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.billboardLogged__datesDestiny {
+  width: 46%;
+}
+.billboardLogged__searchDates h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+}
+.billboardLogged__searchDates input {
+  background: #e9e8c9;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 8px;
+  width: 100%;
+  outline: none;
+}
+.billboardLogged__searchDates input::placeholder {
+  color: #000;
+}
+.billboardLogged__searchBtn {
+  margin-left: 10px;
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 22px;
+}
+.billboardLogged__searchDestinyBtn {
+  width: 100% !important;
+  background: transparent radial-gradient(closest-side at 50% 50%, #003c6b 0%, #001e36 100%) 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+  font-size: 0.8rem !important;
+}
+.billboardLogged__searchText {
+  font-size: 0.8rem !important;
+}
+.billboardLogged__searchInputMulti {
+  margin-top: 8px;
+}
+.billboardLogged__searchInputMulti input {
+  margin-right: 6px;
+}
+.billboardLogged__searchInputMulti label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #002f53;
+  text-shadow: 0px 3px 6px #ffffff80;
+}
+@media (max-width: 576px) {
+  .billboardLogged {
+    width: 100%;
+    margin-top: 0;
+    height: auto;
+  }
+  .billboardLogged__content {
+    margin-top: 15vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0 5%;
+  }
+  .billboardLogged__content h2 {
+    font-size: 2rem;
+  }
+  .billboardLogged__content p {
+    width: auto;
+    font-size: 0.8rem;
+  }
+}

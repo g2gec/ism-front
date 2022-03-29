@@ -1,0 +1,29 @@
+.mainClients__btns {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.mainClients__export {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+    align-items: center;
+}
+.mainClients__export img {
+    width: 30px;
+    margin-right: 6px;
+}
+.mainClients__export label {
+    font-weight: bold;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media (max-width: 576px) {
+    .mainClients__btns {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,97 @@
+.paymentProces {
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 50% 50%, #003C6B 0%, #001E36 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+.paymentProces__head h2{
+    font-weight: bold;
+    color: #ffffff;
+}
+.paymentProces__payments h4 {
+    color: #17FFD8;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.paymentProces__payments span {
+    opacity: 0.7;
+    font-size: 0.7rem;
+}
+
+
+.paymentProces__optionsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.paymentProces__titleDetails {
+    font-weight: bold;
+}
+
+
+/* RECIBED OFFERTS */
+
+.paymentVoucher__offerts {
+    display: flex;
+}
+.paymentVoucher__offertsPromo {
+    color: #17FFD8;
+    font-size: 0.6rem;
+    width: 60%;
+}
+
+/* Traveler Assistence */
+
+.travelerAssistence {
+    background: #6B6CB0;
+    border-radius: 17px;
+    width: 100%;
+    display: flex;
+    padding: 30px 10px;
+    align-items: center;
+}
+.travelerAssistence__info {
+    width: 70%;
+    border-right: 1px solid #fff;
+}
+.travelerAssistence__info h5 {
+    font-weight: bold;
+    margin-left: 10%;
+}
+.travelerAssistence__info p {
+    margin-bottom: 5px;
+}
+.travelerAssistence__amount {
+    width: 30%;
+    padding-left: 10px;
+}
+.travelerAssistence__amount p {
+    margin-bottom: 5px;
+}
+.travelerAssistence__amount p span {
+    font-size: 1.4rem;
+    color: #fff;
+    opacity: 1;
+    font-weight: bold;
+}
+.travelerAssistence__amountOld {
+    text-decoration: line-through;
+}
+
+
+
+.paymentProces__paymentBtns {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.paymentProces__paymentBtnsContet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.paymentProces__paymentBtnsContet p span {
+    font-weight: bold;
+    opacity: 1;
+    font-size: 1rem;
+}
